@@ -1,0 +1,108 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  background-color: purple;
+  color: yellow;
+  width: 40%;
+  font-size: 35px;
+  text-align: center;
+  margin: auto auto auto auto;
+  border-radius: 15px;
+  padding: 12px;
+
+}
+
+h1 {
+  font-size: 40px;
+  padding: 0px;
+  margin-bottom: 0px;
+ }
+
+h2{
+  font-size: 30px;
+  background: purple;
+  text-align: center;
+  border: 3 px solid purple;
+  border-radius: 15px;
+  color: yellow;
+  width: 40%;
+  padding: 10px;
+  margin: auto auto auto auto;
+}
+
+body {
+  background-color: #F9F6EE;
+}
+header {
+  text-align: center;
+  background-color: purple;
+  color: yellow;
+  width: 60%;
+  font-size: 35px;
+  text-align: center;
+  margin: auto auto auto auto;
+  border-radius: 15px;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+
+}
+
+
+  
+
+h3 {
+  color: Purple;
+  font-size: 40px;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+header:hover {
+  background: yellow;
+}
+
+.img {
+  border: 2px solid purple;
+  border-radius: 15px;
+}
+
+hr {
+  border: 1px solid purple;
+  color: purple;
+  width: 60%;
+}
+
+p {
+  margin: auto auto auto auto;
+  text-align: left;
+  background: purple;
+  color: yellow;
+  border: 3px solid purple;
+  border-radius: 15px;
+  padding: 8px;
+  width: 60%;
+  font-size: 26px;
+}
+
+.container {
+  display: flex;
+
+}
+
+.box1 {
+   flex: 1;
+}
+
+.box2 {
+  flex: 1;
+}
+
+
+footer {
+  
+}

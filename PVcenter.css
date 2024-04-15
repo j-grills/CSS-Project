@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #4B0082; 
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+.row {
+  display: -webkit-flex;
+  display: flex;
+  font-size 25px;
+}
+
+
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 600px; 
+}
+
+.footer {
+  background-color: #4B0082;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+}
